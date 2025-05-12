@@ -5,6 +5,7 @@
     text-align: center;
     user-select: none;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
