@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    user-select: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 0.5em;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 2em 0;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.colorBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px ridge black;
+}
+
+.rgb-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#colorCode {
+    font-size: 1em;
+    width: 10em;
+    padding: 0.5em;
+    background-color: white;
+    border: 5px ridge black;
+    border-radius: 8px 8px 0 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+#copyBtn {
+    width: 100%;
+    padding: 0.2em;
+    border: 5px ridge black;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+#generateBtn {
+    padding: 0.6em  1em;
+    border: 5px ridge black;
+    border-radius: 100px;
+    font-weight: bolder;
+}
+
+footer {
+    width: 100%;
+    padding: 1em;
+    font-size: 0.9em;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RGB Color Generator</title>
+    <meta name="description" content="A simple web tool to generate random RGB colors and copy them to your clipboard.">
+    <meta name="author" content="Atia Farha">
+
+    <meta property="og:title" content="RGB Color Generator">
+    <meta property="og:description" content="A simple web tool to generate random RGB colors and copy them to your clipboard.">
+    <meta property="og:image" content="assets/preview.png">
+    <meta property="og:url" content="https://atia-farha.github.io/rgb-color-generator/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RGB Color Generator">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="assets/preview.png">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicons/favicon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-512x512.png" sizes="512x512">
+    <link rel="apple-touch-icon" type="image/png" href="assets/favicons/apple-touch-icon.png" sizes="180x180">
+    <meta name="apple-mobile-web-app-title" content="Color">
+
+    <base href="https://atia-farha.github.io/rgb-color-generator/">
+    <link rel="canonical" href="https://atia-farha.github.io/rgb-color-generator/">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>RGB Color Generator</h1>
+    </header>
+
+    <main>
+        <section class="color-container">
+            <div id="colorBox" class="colorBox"></div>
+
+            <div class="rgb-container">
+                <div id="colorCode"></div>
+                <button id="copyBtn">Copy</button>
+            </div>
+        </section>
+
+        <button id="generateBtn">Generate</button>
+    </main>
+
+    <footer>&copy; 2025 Atia Farha | All Rights Reserved</footer>
+</body>
+
+</html>
